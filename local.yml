@@ -1,4 +1,4 @@
-- host: localhost
+- host: mbp-025186.colby.edu
   becomes: true
   task:
   - name: Install htop
