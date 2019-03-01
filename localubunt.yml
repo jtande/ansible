@@ -2,4 +2,4 @@
   becomes: true
   task:
   - name: Install htop
-    port: name=htop
+    apt: name=htop
