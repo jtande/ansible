@@ -1,5 +1,5 @@
-- host: hostname
-  becomes: true
-  task:
+- hosts: localhost
+  become: true
+  tasks:
   - name: Install htop
-    port: name-htop
+    port: name=htop
